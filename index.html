@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos del menú */
+        .navbar {
+            background-color: black; /* Color negro */
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #444; /* Color al pasar el cursor */
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 20px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #000; /* Color negro */
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #444; /* Color al pasar el cursor */
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style></head><body style="color: rgb(0, 0, 0); background-color: black;" bgcolor="black">
+
+<!-- Menú superior -->
+<div class="navbar">
+    <a href="#">Inicio</a>
+    <div class="dropdown">
+        <button class="dropbtn">Rutinas 
+            <!-- Flecha indicando que es un menú desplegable -->
+            ▼
+        </button>
+        <div class="dropdown-content">
+           <a href="file:///C:/Users/Esmeralda%20Mex/Desktop/imagenes/piernas.html">Piernas</a><br>
+           <a href="file:///C:/Users/Esmeralda%20Mex/Desktop/imagenes/espalda%20y%20biceps.html">Espalda y Biceps</a><br>
+           <a href="file:///C:/Users/Esmeralda%20Mex/Desktop/imagenes/pecho.html">Pecho</a><br> 
+        </div>
+    </div>
+ 
+  <div class="dropdown">
+        <button class="dropbtn">Dietas
+            <!-- Flecha indicando que es un menú desplegable -->
+            ▼
+        </button>
+        <div class="dropdown-content">
+           <a href="file:///C:/Users/Esmeralda%20Mex/Desktop/imagenes/dieta%20bajar%20de%20peso.html">Para bajar de peso</a><br> 
+           <a href="file:///C:/Users/Esmeralda%20Mex/Desktop/imagenes/dieta%20para%20subir%20de%20peso.html">Para subir de peso</a><br>
+       </div>
+    </div>
+  
+   <div class="dropdown">
+        <button class="dropbtn">Entrenadores
+            <!-- Flecha indicando que es un menú desplegable -->
+            ▼
+        </button>
+        <div class="dropdown-content">
+           <a href="https://www.facebook.com/angel.tzakum.3?locale=es_LA">Angel Tzakum</a><br> 
+           <a href="https://www.facebook.com/miguel.garciauicab?locale=es_LA">Miguel Garcia</a><br>
+       </div>
+    </div>
+
+   <div class="dropdown">
+        <button class="dropbtn">Contacto
+            <!-- Flecha indicando que es un menú desplegable -->
+            ▼
+        </button>
+        <div class="dropdown-content">
+           <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtVcJrmWnLStpBSBtlvTxFkNpTKhpnBTZcjFThNHswxSzHQRlbWphfHWLXRRjTWDMkgxbxcG">Angel</a><br>
+       </div>
+    </div>
+<script>
+        // Función para mostrar u ocultar el menú en dispositivos móviles
+        function toggleMenu() {
+            var menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+<img src="file:///C:/Users/Esmeralda%20Mex/Desktop/imagenes/Captura%20de%20pantalla%20%2846%29%20-%20copia.png" align="middle">&nbsp; <br>
+ <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: black;
+        }
+        .container {
+            width: 90%;
+            max-width: 300px;
+            margin: auto;
+            overflow: hidden;
+        }
+       
+       
+        .carousel {
+            position: relative;
+            max-width: 100%;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .carousel img {
+            width: 100%;
+            display: none;
+            transition: opacity 1s ease-in-out;
+            opacity: 0;
+            position: absolute;
+        }
+        .carousel img.active {
+            display: block;
+            opacity: 1;
+            position: relative;
+        }
+        .carousel-buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+        .carousel-buttons button {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        footer {
+            background: black;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    </nav>
+    <div class="container">
+        <div class="carousel">
+            <img src="https://scontent-mty2-1.xx.fbcdn.net/v/t39.30808-6/471872696_1177379747501041_7368716193163385801_n.jpg?_nc_cat=100&amp;ccb=1-7&amp;_nc_sid=833d8c&amp;_nc_ohc=yfP5ykLOEmIQ7kNvgGePFnP&amp;_nc_oc=AdgDBz9ukrJ-FU-fbTv6apNzV2C006dJfD4XdShNxGgrDepDfKWVHvqDVJIqDCMP7Bs&amp;_nc_zt=23&amp;_nc_ht=scontent-mty2-1.xx&amp;_nc_gid=ARUYyDQSEFQok8iKG-pfn_o&amp;oh=00_AYApi08u48AzBi11wtYx0_BBs4Ha4TKHrqmMmEL-VQ4Dew&amp;oe=67CFD427" width="300" heigth="400" alt="vero" class="active">
+            <img src="https://scontent-mty2-1.xx.fbcdn.net/v/t39.30808-6/475323321_1196453098927039_6731223008525634256_n.jpg?_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=833d8c&amp;_nc_ohc=zaO19CEIz7gQ7kNvgFY_vzq&amp;_nc_oc=AdgJUot1TGqhBaMFTQcf-nhD4-cc_RnpQB4IY8WeFfwGgdMPXI98CiTDvhOA8h2TDPA&amp;_nc_zt=23&amp;_nc_ht=scontent-mty2-1.xx&amp;_nc_gid=AWeDqAnJxZvsxefPvBUWUx8&amp;oh=00_AYAubH6mnqA34u3RplMNQRgCWt9MZC09-0I3KUCXwwQp0Q&amp;oe=67CFD9B9" alt="coach">
+            <img src="file:///C:/Users/Esmeralda%20Mex/Desktop/imagenes/images.png" alt="competidora">
+            <img src="https://scontent.fisj3-3.fna.fbcdn.net/v/t39.30808-6/468934623_1154486499790366_1119388845352503478_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3XO7Rwwq11AQ7kNvgEXR0GM&_nc_oc=AdjkRSkxoX0uFTvO4XPuowlao4oJQXIFKh4Wy8ATLqZBeL3X0yXzXW0s45XZem8sgKQ&_nc_zt=23&_nc_ht=scontent.fisj3-3.fna&_nc_gid=AbX702tNKVvLaXa2xaASHee&oh=00_AYE7Ci79ZvlkUKfrODkFhIDnGHahvcy0f07lDXSYOAU_oA&oe=67D3FBC8" alt="competencia">
+            <img src="https://scontent.fisj3-3.fna.fbcdn.net/v/t39.30808-6/453389017_1061480285757655_7589133356860634790_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0Xc-gVcO4lsQ7kNvgEnfzWo&_nc_oc=Adh3K1D5tEb68h_-bsB4prpB2N6IFQTfZ-tHnHyPSYdHTAhJ93Uv_HUZk8UQ_zq_Oso&_nc_zt=23&_nc_ht=scontent.fisj3-3.fna&_nc_gid=Aw65D2LD2vWib57KdZC3PRF&oh=00_AYEkrcizbZ3pyfi6-stRx13rdzzQvgyNy_oSjZDb3dk73Q&oe=67D3F899" alt="competidoes">
+            <img src="https://scontent.fisj3-3.fna.fbcdn.net/v/t39.30808-6/384392233_852865486619137_6713297197505748765_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=qmg562P2BXsQ7kNvgEG1nTX&_nc_oc=AdhVJiq07ayVTMuU3gCVeIyXy19pt1l4vB1e9SHulk71ZgTjQM4K3GYA96FU8Gcameo&_nc_zt=23&_nc_ht=scontent.fisj3-3.fna&_nc_gid=A2cf7bNGlqPOWPPacl59Ods&oh=00_AYHzeoQiggR9rbC1Q0yB8bT1WMuw5H2GB2MRghZpq6j1Ow&oe=67D3EA0E" alt="dueño">
+            <div class="carousel-buttons">
+                <button onclick="prevImage()">&#10094;</button>
+                <button onclick="nextImage()">&#10095;</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        let index = 0;
+        const images = document.querySelectorAll(".carousel img");
+        function changeImage(next = true) {
+            images[index].classList.remove("active");
+            index = next ? (index + 1) % images.length : (index - 1 + images.length) % images.length;
+            images[index].classList.add("active");
+        }
+        function nextImage() {
+            changeImage(true);
+        }
+        function prevImage() {
+            changeImage(false);
+        }
+    </script>
+ <style>
+        .facebook-button {
+            display: inline-flex;
+            align-items: center;
+            background-color: #1877F2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .facebook-button img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .facebook-button:hover {
+            background-color: #155bc0;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.facebook.com/profile.php?id=100056870814172&locale=es_LA" class="facebook-button" target="_blank">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+     
+    </a>      
+
+</span>
+</div>
+</body>
+</html>
